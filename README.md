@@ -60,13 +60,13 @@ A typical setup for a React Native project using Expo may include:
 1. Clone the project repository:
 
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/Lio0717/AniMarket
    ```
 
 2. Open the project directory:
 
    ```bash
-   cd <project-folder>
+   cd AniMarket
    ```
 
 3. Install dependencies:
