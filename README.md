@@ -87,7 +87,7 @@ A typical setup for a React Native project using Expo may include:
 
 ## Figma Prototype
 
-**Figma Design:** [Insert the AniMarket Figma prototype link here]
+**Figma Design:** https://www.figma.com/design/WAwp0pWeFDDAoaughxp6bJ/AniMarket-%E2%80%94-Local-Crop-Price-and-Buyer-Connector?node-id=51-1353&t=HvNC1SP1lblYl2O6-1
 
 The AniMarket design uses a dark, nature-inspired visual identity with forest-green backgrounds, leaf-green primary actions, harvest-yellow price highlights, and soft-white typography. The interface is organized around separate farmer and buyer experiences, reusable UI components, and clear navigation.
 
@@ -95,16 +95,16 @@ Make sure the Figma link permissions allow the instructor and intended reviewers
 
 ## Team Information
 
-- **Course:** [Insert course name]
-- **Semester:** [Insert semester and academic year]
-- **Section:** [Insert section]
-- **Team ID:** [Insert team ID]
-- **Team Name:** [Insert team name]
+- **Course:** ITMSD1 – Introduction to Mobile Design and Tools
+- **Semester:** 1st Semester, Academic Year 2026–2027
+- **Section:** BSIT - 3C
+- **Team ID:** C - 8
+- **Team Name:** Osten
 
 ### Team Members
 
-- [Insert team member name]
-- [Insert team member name]
+- Gerald Julio A. Digamon
+- Austine John M. Gonzales
 - [Add other members if applicable]
 
 ## Project Roadmap
