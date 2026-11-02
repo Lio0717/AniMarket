@@ -1,339 +1,337 @@
 # AniMarket: Local Crop Price and Buyer Connector
 
-# Week 1 — Research and Validation
+**Project Documentation: Week 1 and Week 2**
 
-**SDG Alignment:** SDG 2 — Zero Hunger
+**SDG Alignment:** Sustainable Development Goal 2 — Zero Hunger
 
-## 1. Research Purpose
-
-The research aims to understand how small-scale farmers make their crops available for sale, how buyers find local agricultural products, and what challenges both groups experience when communicating about crop availability and prices.
-
-It also seeks to explore how farmers currently share information about their harvests, how buyers compare prices and identify potential suppliers, and whether a mobile application could make local crop discovery and buyer–farmer communication more accessible.
-
-## 2. Research Method
-
-The team may use surveys and, where possible, short interviews with potential AniMarket users, including small-scale farmers, household or individual buyers, and business buyers such as restaurants, market vendors, and grocery operators.
-
-The research may explore:
-
-- How farmers currently advertise available crops and communicate asking prices.
-- How buyers discover local farmers and source agricultural products.
-- Difficulties related to finding buyers, locating suppliers, comparing prices, and confirming crop availability.
-- Preferred ways of communicating and sending purchase inquiries.
-- Interest in using a mobile application to connect local farmers and buyers.
-
-Responses should be organized into common themes to identify user needs, expectations, and opportunities for improvement. Any findings reported in the final documentation must be based on actual survey or interview feedback.
-
-## 3. Key Findings
-
-Actual survey and interview responses should be analyzed and summarized here after data collection.
-
-- **Farmer Selling Practices:** Describe how participating farmers currently advertise crops, communicate availability, and set asking prices.
-- **Buyer Sourcing Practices:** Identify how buyers currently find local produce suppliers and decide where to purchase crops.
-- **Price Information:** Summarize difficulties or preferences related to viewing, comparing, and understanding crop prices.
-- **Availability and Harvest Information:** Identify the information buyers need before contacting a farmer, such as crop type, quantity, location, and harvest or availability date.
-- **Communication and Purchase Inquiries:** Describe how farmers and buyers prefer to communicate about product details, quantity, pickup, and delivery arrangements.
-- **Application Expectations:** Identify features respondents consider useful, such as crop listings, search and filtering, price comparison, farmer contact information, and purchase inquiries.
-- **Suggested Improvements:** Document recommendations about usability, accessibility, trust, listing accuracy, and continued engagement.
-
-Do not insert assumed percentages, quotations, or conclusions. Use only information collected from participants.
-
-## 4. Impact on Project Design
-
-Research results will guide the design and prioritization of AniMarket features according to the needs of intended users.
-
-Potential design decisions include:
-
-- Providing farmers with a straightforward way to create and manage crop listings.
-- Allowing buyers to browse and search available local crops.
-- Displaying crop details such as asking price, unit, quantity or availability, farmer, and location when provided.
-- Providing a price comparison view that clearly distinguishes farmer asking prices from verified market reference prices.
-- Enabling buyers to send purchase inquiries to farmers.
-- Giving farmers a way to review and respond to inquiries if this function is included in the project scope.
-- Showing relevant dates and sources for any market reference prices.
-- Designing separate, role-appropriate experiences for farmers and buyers.
-
-The team will use actual research findings to refine the user personas, user flow, wireframes, and feature priorities. Features will be prioritized according to user feedback, project requirements, feasibility, and relevance to SDG 2 — Zero Hunger.
-
-## 5. Conclusion
-
-Week 1 research and validation will establish an initial understanding of the challenges small-scale farmers and local buyers experience when sharing crop information, discovering agricultural products, and communicating about potential purchases.
-
-The collected evidence will help the AniMarket team make informed design decisions and develop a mobile application prototype that responds to users' needs while supporting local agricultural access and market connections.
-
-Research conclusions and final feature priorities should be updated after actual survey and interview responses have been reviewed.
+**Figma Prototype:** [AniMarket — Local Crop Price and Buyer Connector](https://www.figma.com/design/WAwp0pWeFDDAoaughxp6bJ/AniMarket-%E2%80%94-Local-Crop-Price-and-Buyer-Connector?node-id=51-1353&t=HvNC1SP1lblYl2O6-1)
 
 ---
 
-# Week 2 — Component Design System & Clickable Interactive Figma Prototype
+# WEEK 1 — Research and Validation
 
-**SDG Alignment:** SDG 2 — Zero Hunger
+## 1. Project Overview
 
-## 6. Week 2 Objectives
+AniMarket is a mobile application concept designed to connect small-scale farmers with potential buyers through a more accessible platform for discovering local agricultural products. The project focuses on helping farmers present their available crops, provide asking prices, and communicate with interested buyers.
 
-Week 2 focuses on translating the initial AniMarket concepts and low-fidelity wireframes into a consistent and interactive Figma prototype.
+For buyers, AniMarket provides a way to browse local crop listings, view product information, compare available prices, and send purchase inquiries directly to farmers.
 
-The team will establish a reusable component design system, improve the visual consistency of the application, and connect the main screens through clickable interactions.
+The project supports **UN Sustainable Development Goal 2: Zero Hunger**, particularly its emphasis on supporting food systems and improving opportunities for small-scale food producers.
 
-The design process will prioritize clear navigation, accessibility, readable crop and price information, and role-based experiences for farmers and buyers.
+## 2. Research Purpose
 
-## 7. Design Implications and Priorities
+The purpose of the initial research and validation stage is to understand the challenges experienced by small-scale farmers and potential buyers when selling, finding, and purchasing local agricultural products.
 
-The initial research objectives and preliminary user personas will guide the design of the AniMarket interface. Since research findings must be documented after data collection, these priorities should be refined as feedback becomes available.
+The research aims to explore how farmers currently advertise their crops, communicate their prices, and find potential customers. It also seeks to understand how buyers discover local produce, identify suppliers, compare available prices, and confirm crop availability.
 
-### 7.1 Farmer Crop Listings
+The information gathered will help the team determine whether AniMarket's proposed features address relevant user needs and identify areas that should be prioritized during the design and development process.
 
-The farmer interface should make it straightforward to publish and maintain information about crops available for sale.
+## 3. Target Users
 
-Planned design elements include:
+AniMarket primarily focuses on two groups of users:
 
-- A crop listing form with fields for crop name, description, asking price, unit, available quantity, and location, as applicable.
-- An option to add a crop photograph, if supported.
-- Availability or listing status indicators.
-- A My Crop Listings screen for reviewing published listings.
-- Edit and remove or deactivate controls, if included in the application scope.
-- Clear confirmation and validation messages.
+### 3.1 Small-Scale Farmers
 
-Listing information should be accurate and updated by the farmer. The interface should not imply that a crop is available when its listing has not been confirmed or updated.
+Farmers are the primary providers of agricultural products on the platform. They need a convenient way to publish crop listings, display asking prices, update availability, and receive inquiries from interested buyers.
 
-### 7.2 Buyer Crop Discovery
+### 3.2 Buyers
 
-The buyer interface should help users find local agricultural products and understand the information available before contacting a farmer.
+Buyers include individuals, households, and business operators who purchase agricultural products. They need an accessible way to discover available crops, review product information, compare listed prices, and communicate with farmers.
 
-Planned design elements include:
+## 4. Research Method and Validation Approach
 
-- A Browse Crops screen with crop cards.
-- Search and category filters, if supported.
-- Crop photographs, crop names, asking prices, units, and available locations.
-- A Crop Details screen with the available listing information and farmer details.
-- Clear navigation between browsing, crop details, and purchase inquiry actions.
+The team may use surveys and short interviews with potential users, particularly small-scale farmers and individuals or businesses that regularly purchase agricultural products.
 
-### 7.3 Crop Price Comparison
+The research will focus on the following areas:
 
-The price comparison interface should help buyers review available price information without confusing different types of prices.
+- **Current Selling Practices:** How farmers advertise their harvests, establish asking prices, and communicate with potential buyers.
+- **Buyer Sourcing Practices:** How buyers find local agricultural products and identify reliable suppliers.
+- **Price Information:** How farmers and buyers communicate about prices, quantities, and units of measurement.
+- **Crop Availability:** What information buyers need before contacting a farmer, including crop type, quantity, location, and availability.
+- **Communication Challenges:** Difficulties experienced when coordinating purchase inquiries between farmers and buyers.
+- **Technology Preferences:** Whether potential users are comfortable using a mobile application to discover crops and communicate about agricultural products.
+- **Feature Expectations:** Which application features users consider useful and necessary.
 
-Planned design elements include:
+Responses should be organized into common themes to identify recurring concerns, user expectations, and possible improvements.
 
-- A comparison view for selected crops or listings.
-- Clear display of price, unit, location, and listing information.
-- A visible distinction between farmer asking prices and market reference prices.
-- Source and last-updated date for market reference prices, when such data is available.
-- Consistent units to support meaningful comparisons.
-- An explanatory note when prices are based on user-submitted listings or sample data.
+**Research integrity:** Actual findings, participant quotations, percentages, and conclusions must only be included after the team has collected and analyzed real responses.
 
-Do not label farmer-submitted asking prices as official, verified, or prevailing market prices unless they have been independently verified by a reliable source.
+## 5. Initial Project Problem and Proposed Solution
 
-### 7.4 Purchase Inquiry
+Small-scale farmers and potential buyers may experience difficulties connecting with one another because information about available crops, asking prices, and product availability can be scattered across different communication channels.
 
-The purchase inquiry interface should guide buyers through contacting a farmer about a crop listing.
+Farmers may need more accessible ways to present their available harvests and reach interested buyers. Meanwhile, buyers may spend additional time searching for local suppliers and gathering information before making purchase inquiries.
 
-Planned design elements include:
+AniMarket proposes a mobile platform where farmers can publish crop listings and buyers can browse available agricultural products, review listing information, compare available prices, and send purchase inquiries.
 
-- A clear Send Purchase Inquiry action.
-- Fields for inquiry message and requested quantity, if included.
-- A review or confirmation step.
-- A successful inquiry confirmation screen.
-- A My Inquiries screen for viewing inquiry records and their status, if implemented.
+The application aims to make local crop information easier to access and improve communication opportunities between farmers and buyers.
 
-The prototype should represent only the inquiry actions included in the actual design. It should not imply that payment, delivery booking, or order fulfillment is available unless those functions are part of the project.
+## 6. Research Findings
 
-### 7.5 Farmer Inquiry Management
+This section should be completed using actual survey and interview results.
 
-The farmer interface should make buyer inquiries easy to review.
+The following themes will guide the presentation of findings:
 
-Planned design elements include:
+- **Farmer Experiences:** Common challenges in advertising crops, finding buyers, and updating listing information.
+- **Buyer Experiences:** Difficulties in discovering local produce and identifying potential suppliers.
+- **Price-Related Concerns:** Challenges in understanding and comparing asking prices and units.
+- **Availability Information:** The crop details buyers consider important before contacting a farmer.
+- **Communication Preferences:** Preferred ways of sending inquiries and discussing crop purchases.
+- **Technology Acceptance:** Willingness and ability to use a mobile application for crop discovery and communication.
+- **Feature Recommendations:** Suggestions from participants regarding usability, accessibility, and application functions.
 
-- An inquiry list.
-- Inquiry details, including the buyer's message and requested quantity when provided.
-- Clear inquiry status labels, if supported.
-- Response actions such as accepting, declining, or replying, if included in the project scope.
+The findings should be summarized objectively and used to support decisions about the application's design and features.
 
-Any inquiry status workflow should reflect the functions actually designed and implemented.
+## 7. Impact of Research on Project Design
 
-## 8. Component Design System
+The research objectives and identified user needs provide the foundation for AniMarket's initial design direction.
 
-The team will establish a consistent visual design system to support reusable UI components throughout AniMarket.
+The proposed application features address the two main user groups:
 
-### 8.1 Color Palette
+**For Farmers:**
+- Create and publish crop listings.
+- Provide crop descriptions, asking prices, units, and availability information.
+- Add crop photographs when supported.
+- View and manage published listings.
+- Receive and review buyer inquiries.
 
-AniMarket will use a dark, nature-inspired visual identity that reflects agriculture while maintaining a modern marketplace appearance.
+**For Buyers:**
+- Browse available local agricultural products.
+- Search or filter crop listings when supported.
+- View crop details and farmer-provided information.
+- Compare available asking prices.
+- Send purchase inquiries to farmers.
+- Review submitted inquiries when supported.
 
-Recommended color tokens:
+The design separates farmer and buyer experiences to make the available functions relevant to each user's role.
 
-| Token | Hex Code | Intended Use |
+---
+
+# WEEK 2 — Component Design System and Interactive Figma Prototype
+
+## 8. Week 2 Objectives
+
+Week 2 focuses on transforming AniMarket's initial concepts and wireframes into a more organized, visually consistent, and interactive mobile application prototype.
+
+The team worked on establishing a recognizable visual identity, maintaining consistent styling, organizing reusable components, and improving navigation across the farmer and buyer interfaces.
+
+The Figma prototype serves as a visual representation of the proposed application and demonstrates how users may navigate its main features.
+
+## 9. AniMarket Figma Prototype
+
+**Prototype Link:** [Open AniMarket — Local Crop Price and Buyer Connector in Figma](https://www.figma.com/design/WAwp0pWeFDDAoaughxp6bJ/AniMarket-%E2%80%94-Local-Crop-Price-and-Buyer-Connector?node-id=51-1353&t=HvNC1SP1lblYl2O6-1)
+
+The Figma design presents AniMarket's proposed interface and visual direction. It is intended to demonstrate the application's layout, user navigation, and core features for farmers and buyers.
+
+The prototype is organized around the following design priorities:
+
+- A consistent visual identity throughout the application.
+- Clear navigation between the main screens.
+- Separate user experiences for farmers and buyers.
+- Organized presentation of crop information and asking prices.
+- Reusable components for consistent interface elements.
+- Accessible layouts that are appropriate for mobile devices.
+
+## 10. Visual Design System
+
+### 10.1 Color Palette
+
+AniMarket uses a dark, nature-inspired color palette that reflects agriculture while providing a modern marketplace appearance.
+
+| Color Token | Hex Code | Intended Use |
 |---|---|---|
 | Primary Background | `#172B21` | Main screen background |
-| Secondary Background | `#1C3025` | Secondary page areas |
-| Card Surface | `#22382B` | Crop cards, dashboard cards, and panels |
-| Elevated Surface | `#2A4232` | Dialogs, dropdowns, and elevated elements |
+| Secondary Background | `#1C3025` | Secondary screen areas |
+| Card Surface | `#22382B` | Crop cards and content panels |
+| Elevated Surface | `#2A4232` | Dialogs and elevated elements |
 | Primary Green | `#78A85A` | Primary actions and selected controls |
 | Dark Green | `#245C3A` | Strong green accents |
 | Harvest Yellow | `#F2C14E` | Price highlights and important indicators |
-| Primary Text | `#F1F5EF` | Headings and important text |
-| Secondary Text | `#B8C7B8` | Descriptions and supporting information |
-| Muted Text | `#91A494` | Metadata and less prominent text |
-| Border | `#34483A` | Card outlines, dividers, and input borders |
-| Error | `#F07878` | Validation errors and failed actions |
+| Primary Text | `#F1F5EF` | Headings and important information |
+| Secondary Text | `#B8C7B8` | Descriptions and supporting text |
+| Muted Text | `#91A494` | Metadata and less prominent information |
+| Border | `#34483A` | Card outlines and dividers |
+| Error | `#F07878` | Error messages and validation feedback |
 
-Color combinations should provide sufficient contrast and support readability. Prices may use harvest yellow for emphasis, while long paragraphs should use soft-white or secondary text colors.
+The dark green shades establish the application's agricultural identity, while harvest yellow highlights important information such as crop prices. Soft white and secondary text colors maintain readability against the dark backgrounds.
 
-### 8.2 Typography
+### 10.2 Typography
 
-A consistent typography system will be used across the application.
+A consistent typography system is applied throughout the interface to establish a clear visual hierarchy.
 
-It will define:
+The typography should distinguish:
 
-- Heading styles for screen titles and major sections.
-- Body text styles for crop descriptions and instructions.
-- Supporting text styles for locations, units, dates, and listing metadata.
-- Price styles that emphasize the amount while keeping the unit visible.
-- Consistent text sizes, weights, and line spacing.
+- Screen titles and section headings.
+- Crop names and descriptions.
+- Asking prices and measurement units.
+- Supporting information such as location and availability.
+- Button labels, instructions, and feedback messages.
 
-Typography should remain readable across mobile screens.
+Consistent text sizing, weight, and spacing help users understand information more easily.
 
-### 8.3 Reusable UI Components
+### 10.3 Reusable Components
 
-Proposed reusable components include:
+Reusable components help maintain a uniform appearance and make the prototype easier to organize and update.
 
-- **Navigation Components:** Allow users to move between the dashboard and major application features.
-- **Crop Listing Cards:** Display crop images, names, asking prices, units, and availability information.
-- **Price Display Components:** Present prices and units consistently.
-- **Price Comparison Rows or Cards:** Allow buyers to review comparable listing information.
-- **Availability Badges:** Indicate whether a listing is available or has another supported status.
-- **Inquiry Status Badges:** Display inquiry statuses if status tracking is included.
-- **Form Components:** Standardize text fields, dropdowns, quantity inputs, and action buttons.
-- **Profile Components:** Display farmer or buyer account information.
-- **Feedback Messages:** Communicate successful actions, missing information, and errors.
+The design system includes or plans for reusable interface elements such as:
 
-Reusable components will help maintain visual consistency and simplify future design updates.
+- Navigation elements.
+- Buttons and action controls.
+- Input fields and form elements.
+- Crop listing cards.
+- Price displays.
+- Availability indicators.
+- Profile elements.
+- Inquiry information and status indicators.
+- Feedback and confirmation messages.
 
-### 8.4 Layout and Spacing
+Components with similar functions should maintain consistent styling and behavior across the application.
 
-The application will use consistent spacing, alignment, padding, and corner radii across screens.
+## 11. Main Application Features and Design Priorities
 
-The layout should provide a clear visual hierarchy, make important actions easy to identify, and avoid overcrowding information on smaller mobile screens.
+### 11.1 Farmer Interface
 
-### 8.5 Component Consistency
+The farmer interface is designed to help users manage information about their available agricultural products.
 
-Components with similar functions should maintain consistent appearances and behavior throughout the application.
+Its main design priorities include:
 
-For example, primary buttons should follow the same visual style, crop cards should use a consistent information hierarchy, and inquiry status badges should use consistent labels and colors wherever they appear.
+- Providing a clear dashboard.
+- Making crop listing creation straightforward.
+- Displaying crop names, descriptions, asking prices, and availability.
+- Allowing farmers to review their published listings.
+- Providing access to listing management functions.
+- Presenting buyer inquiries in an organized manner.
 
-## 9. Clickable Interactive Figma Prototype
+### 11.2 Buyer Interface
 
-The team will develop a clickable Figma prototype that demonstrates the intended navigation and interactions between the main AniMarket screens.
+The buyer interface focuses on making local agricultural products easier to discover and review.
 
-### 9.1 Authentication and Role Selection
+Its main design priorities include:
 
-The prototype should demonstrate:
+- Providing a buyer dashboard.
+- Organizing available crop listings.
+- Presenting crop details in an understandable format.
+- Making asking prices and measurement units visible.
+- Providing access to price comparison.
+- Making purchase inquiry actions easy to identify.
 
-- Opening the application and viewing the Welcome or Login screen.
-- Navigating to Create Account.
-- Selecting the Farmer or Buyer role.
-- Completing the account creation screen.
-- Viewing the account creation confirmation.
-- Proceeding to the appropriate login or role-based dashboard, depending on the designed flow.
-- Accessing Forgot Password and the reset-link confirmation screen, if included.
+### 11.3 Crop Price Comparison
 
-### 9.2 Buyer Navigation
+The price comparison feature is intended to help buyers review available price information for agricultural products.
 
-The Buyer Dashboard should serve as the main entry point to buyer features.
+The interface should clearly identify farmer-provided asking prices and distinguish them from any external market reference prices.
 
-Users should be able to navigate to:
+If market reference prices are included, their sources and update dates should be identified. Farmer-submitted listing prices should not be presented as verified market prices.
 
-- Browse Crops.
-- Crop Details.
-- Compare Crop Prices.
-- Send Purchase Inquiry.
-- Inquiry Confirmation.
-- My Inquiries.
-- Buyer Profile and Settings.
+### 11.4 Purchase Inquiries
 
-### 9.3 Buyer Crop Discovery and Inquiry Interaction
+The purchase inquiry feature provides a communication channel between interested buyers and farmers.
 
-The prototype should demonstrate a typical buyer flow:
+The design should make it easy for buyers to express interest in a crop listing and provide relevant inquiry information.
+
+The prototype should only represent functions included in the actual project scope. Payment processing, delivery booking, and completed transactions should not be implied unless they are implemented as project features.
+
+## 12. Navigation and User Interaction
+
+The prototype is intended to demonstrate the main user journeys of AniMarket.
+
+### 12.1 Account and Authentication Flow
+
+The authentication experience may include:
+
+1. Welcome or Login screen.
+2. Create Account screen.
+3. Farmer or Buyer role selection.
+4. Account creation confirmation.
+5. Role-appropriate dashboard.
+6. Forgot Password and reset confirmation, if included.
+
+### 12.2 Buyer Journey
+
+The buyer journey focuses on discovering crops and contacting farmers.
 
 1. Open the Buyer Dashboard.
-2. Select Browse Crops.
+2. Navigate to Browse Crops.
 3. Browse or search available crop listings.
 4. Select a crop to view its details.
-5. Review available price, unit, location, and farmer information.
-6. Open the price comparison view when available.
-7. Select Send Purchase Inquiry.
-8. Enter the requested information included in the design.
-9. Proceed to the inquiry confirmation screen.
-10. Open My Inquiries to review the inquiry, if included.
+5. Review the available price, unit, location, and farmer information.
+6. Open the price comparison feature when available.
+7. Send a purchase inquiry.
+8. View the inquiry confirmation.
+9. Review submitted inquiries when supported.
+10. Access the buyer profile and settings.
 
-### 9.4 Farmer Listing Interaction
+### 12.3 Farmer Journey
 
-The prototype should demonstrate a typical farmer flow:
+The farmer journey focuses on publishing crop listings and reviewing buyer inquiries.
 
 1. Open the Farmer Dashboard.
-2. Select Add Harvest Listing.
-3. Enter the crop information required by the form.
-4. Add a crop image if supported.
-5. Review or submit the listing in the prototype.
-6. View the confirmation or return to My Crop Listings.
-7. Open an existing listing.
-8. Edit the listing information if the edit function is included.
+2. Navigate to Add Harvest Listing.
+3. Enter the required crop information.
+4. Add a crop photograph when supported.
+5. Submit or preview the listing.
+6. Review published listings.
+7. Edit listing information when needed.
+8. Open Farmer Inquiries.
+9. Review buyer messages and available inquiry details.
+10. Access the farmer profile and settings.
 
-### 9.5 Farmer Inquiry Interaction
+### 12.4 Profile and Logout
 
-The prototype should demonstrate how farmers access and review buyer inquiries.
+Both user roles should have access to their respective profile and settings screens. A logout confirmation interaction should allow users to confirm or cancel the action.
 
-The flow may include:
+The final navigation documentation should reflect the actual screens and connections available in the Figma prototype.
 
-1. Open Farmer Dashboard.
-2. Select Farmer Inquiries.
-3. Open an inquiry.
-4. Review the buyer's message and requested quantity, if provided.
-5. Select an available response action.
-6. View the corresponding confirmation or updated inquiry state, if designed.
+## 13. Prototype Review and Refinement
 
-### 9.6 Profile, Settings, and Logout
+The AniMarket Figma prototype should be reviewed to assess the consistency, usability, and clarity of the interface.
 
-The prototype should provide a clear route from the buyer or farmer dashboard to the appropriate profile and settings screens.
+The review focuses on:
 
-Users should be able to open the Logout Confirmation screen and either confirm logout or cancel and return to the previous screen.
+- Consistency of colors, typography, and reusable components.
+- Clear navigation between farmer and buyer screens.
+- Readability of crop names, asking prices, and units.
+- Organization of crop listing information.
+- Ease of understanding the crop discovery process.
+- Clarity of the purchase inquiry interaction.
+- Consistency of buttons, cards, and other interface elements.
+- Correct prototype connections between screens.
+- Suitability of the layouts for mobile devices.
 
-## 10. Validation and Refinement
+Reusable components and consistent styling improve usability by creating a uniform appearance across the application. They also make navigation easier and help users become familiar with recurring interface elements.
 
-The team will review the AniMarket design system and clickable prototype to identify opportunities for improvement.
+Further refinements should be based on prototype review and, where available, feedback from potential users.
 
-The review will consider:
+## 14. Week 1 and Week 2 Deliverables
 
-- Consistency of colors, typography, icons, buttons, and crop cards.
-- Clarity of buyer and farmer navigation.
-- Readability of crop names, prices, units, and availability information.
-- Whether price comparisons distinguish asking prices from market reference prices.
-- Ease of creating and editing crop listings.
-- Ease of sending and reviewing purchase inquiries.
-- Accessibility and usability on mobile screens.
-- Correct connections between screens in the Figma prototype.
+The project documentation and design activities cover the following deliverables:
 
-Where possible, the team will gather feedback from potential users to determine whether the design is understandable and whether the proposed features address their needs.
+**Week 1 — Research and Validation**
+- Project overview and problem identification.
+- Alignment with SDG 2 — Zero Hunger.
+- Identification of target users.
+- Research purpose and validation approach.
+- Initial feature planning based on user needs.
+- Preliminary design direction.
 
-Feedback and identified design issues will guide further revisions. Claims about user validation must be based on actual testing or feedback collected.
+**Week 2 — Design System and Figma Prototype**
+- AniMarket visual design direction.
+- Defined color palette and typography standards.
+- Reusable UI component planning.
+- Farmer and buyer interface design.
+- Main application navigation and user journeys.
+- Figma prototype for presenting the proposed application.
 
-## 11. Expected Week 2 Deliverables
+The team should distinguish completed design outputs from planned or unvalidated activities when reporting project progress.
 
-Expected Week 2 deliverables include:
+## 15. Conclusion
 
-- A consistent AniMarket component design system.
-- Defined color, typography, spacing, and layout standards.
-- Reusable UI components for buyer and farmer features.
-- Updated screen designs based on Week 1 wireframes.
-- A clickable Figma prototype connecting the main buyer and farmer screens.
-- Documented design refinements based on review and available user feedback.
+Week 1 established the initial direction of AniMarket by identifying the project's target users, defining the problem it aims to address, and outlining the research needed to understand the experiences of small-scale farmers and potential buyers.
 
-Verify that each deliverable is completed before reporting it as finished.
+Building on this foundation, Week 2 focused on translating the initial concepts into a more organized and visually consistent Figma prototype. The design emphasizes a dark, nature-inspired visual identity, reusable components, and clearer navigation across the farmer and buyer interfaces.
 
-## 12. Conclusion
+Through its crop listing, crop discovery, price information, and purchase inquiry features, AniMarket aims to provide a more accessible way for small-scale farmers and potential buyers to connect.
 
-Week 1 establishes the research objectives, preliminary user needs, and design direction for AniMarket. Week 2 builds on that foundation by translating the initial concepts and wireframes into a consistent component design system and clickable interactive Figma prototype.
+The project supports SDG 2 — Zero Hunger by focusing on opportunities for small-scale food producers and improving access to local agricultural product information.
 
-Together, these stages aim to create a user-centered mobile application design that connects small-scale farmers with potential buyers, improves access to local crop listings and price information, and supports more accessible communication about agricultural products.
-
-The AniMarket design should continue to evolve as the team collects actual user feedback, evaluates the prototype, and prepares for mobile MVP development.
-
-The project remains aligned with UN Sustainable Development Goal 2 — Zero Hunger.
+Further improvements should be guided by actual user feedback, prototype evaluation, and the project's development requirements.
